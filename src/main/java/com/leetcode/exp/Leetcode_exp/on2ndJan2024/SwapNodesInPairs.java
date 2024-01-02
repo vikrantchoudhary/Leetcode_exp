@@ -63,3 +63,11 @@ public class SwapNodesInPairs {
     }
     
 }
+
+/**
+ * output: 
+ * Initial List : 
+1 --> 2 --> 3 --> 4 --> 
+After swaping the List : 
+2 --> 1 --> 4 --> 3 --> 
+ */
