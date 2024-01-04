@@ -43,10 +43,6 @@ public class FlatternBT {
             }
             node.setLeft(null);
         }
-        /*while (!stack.isEmpty()) {
-            System.out.print(stack.pop().getVal() + " ");
-            
-        }*/
     }
 
 }
