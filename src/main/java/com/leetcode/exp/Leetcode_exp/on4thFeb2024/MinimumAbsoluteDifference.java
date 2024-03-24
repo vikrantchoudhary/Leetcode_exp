@@ -29,7 +29,7 @@ public class MinimumAbsoluteDifference {
                 if (arr[j] == rem) {
                     pair.add(arr[i]);
                     pair.add(arr[j]);
-                    System.out.println(pair);
+                    //System.out.println(pair);
                     result.add(pair);
                 }
             }

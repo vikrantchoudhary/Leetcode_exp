@@ -33,7 +33,7 @@ public class TreeNode {
                     if (node.right != null) {
                         queue.add(null);
                     }
-            }
+                }
             if (node.right != null) {
                 queue.add(node.right);
             }else {

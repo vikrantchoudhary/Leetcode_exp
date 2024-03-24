@@ -36,6 +36,7 @@ public class IntersectionOfTwoLinkedList {
         ListNode list = getIntersectionNode(headA,headB);
         //System.out.println(list.getVal());
         //System.out.println();
+        System.out.println("########");
         ListNode.printList(list);
         
         
@@ -50,7 +51,7 @@ public class IntersectionOfTwoLinkedList {
         int it = 0;
         while (posA != posB) {
             System.out.println(" iteration " + it++);
-            
+            //if ( posA != null && posB!= null) break;
             if (posA != null && posB != null) System.out.println(posA.getVal() + " " + posB.getVal());
             if (posA == null) {
                 posA = headB;
@@ -63,6 +64,7 @@ public class IntersectionOfTwoLinkedList {
                 posB = posB.getNext();
             }
         }
+        System.out.println("***** ");
         ListNode.printList(posA);;
         return posA;
     }
